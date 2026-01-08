@@ -4,6 +4,7 @@ import img1 from "../assets/MOPTro 1.jpg";
 import apple from "../assets/aapple.png";
 import vector from "../assets/vector.png";
 import facebook from "../assets/facebook.png";
+import { Link } from "react-router-dom";
 const Signup = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -102,9 +103,11 @@ const Signup = () => {
               Sign up
             </button>
           </form>
-          <p className="signin-text">
-            Already have an account? <a href="#">Sign In</a>
+           <p className="signin-text">
+            Already have an account?
+            <Link to="/login">Sign In</Link>
           </p>
+        
         </div>
         {/* Footer */}
         <footer className="register-footer">
