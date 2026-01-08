@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import img1 from "../assets/MOPTro 1.jpg";
 import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
+
+import dashbaord from '../assets/dashboard.png'
+import profile from '../assets/profile.png'
+import signup from '../assets/signup.png'
+import signin from '../assets/signin.png'
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -14,6 +19,14 @@ const Login = () => {
 
   return (
     <div className="signup-wrapper">
+      <div className="flext-top">
+             <img className="" src={dashbaord} /> <p>Dashbaoard</p>
+            <img className="" src={profile} /> <p>Profile</p>
+             <img className="" src={signup} /> 
+             <p>Sign up</p>
+             <img className="" src={signin} /> 
+              <p>Sign in</p>
+            </div>
       <div className="signup-left">
         <img className="signup-image" src={img1} alt="Login visual" />
       </div>
@@ -90,3 +103,8 @@ const Login = () => {
 };
 
 export default Login;
+
+
+
+
+

@@ -4,6 +4,11 @@ import img1 from "../assets/MOPTro 1.jpg";
 import apple from "../assets/aapple.png";
 import vector from "../assets/vector.png";
 import facebook from "../assets/facebook.png";
+
+import dashbaord from '../assets/dashboard.png'
+import profile from '../assets/profile.png'
+import signup from '../assets/signup.png'
+import signin from '../assets/signin.png'
 import { Link } from "react-router-dom";
 const Signup = () => {
   const [name, setName] = useState("");
@@ -18,6 +23,14 @@ const Signup = () => {
   };
   return (
     <div className="signup-wrapper">
+      <div className="flext-top">
+       <img className="" src={dashbaord} /> <p>Dashbaoard</p>
+      <img className="" src={profile} /> <p>Profile</p>
+       <img className="" src={signup} /> 
+       <p>Sign up</p>
+       <img className="" src={signin} /> 
+        <p>Sign in</p>
+      </div>
       <div className="signup-left">
         <img className="signup-image" src={img1} />
       </div>
@@ -103,11 +116,10 @@ const Signup = () => {
               Sign up
             </button>
           </form>
-           <p className="signin-text">
+          <p className="signin-text">
             Already have an account?
             <Link to="/login">Sign In</Link>
           </p>
-        
         </div>
         {/* Footer */}
         <footer className="register-footer">

@@ -117,6 +117,7 @@ opacity: 1;
 .register-card {
   width: 50%;
  
+  
   height: 80vh;
   background: #334155;
   border: 1px solid #A0AEC0;
@@ -156,10 +157,15 @@ opacity: 1;
   font-size: 14px;
 }
 
-/* form */
+
+
+
+
+
 .form-group {
-  margin-bottom: 16px;
+  margin-bottom: 12px;   /* pehle zyada hoga */
 }
+
 
 
 
@@ -179,6 +185,8 @@ opacity: 1;
 
 
 .input-wrapper input {
+
+  
   width: 100%;
  
   padding: 5px;
@@ -266,4 +274,34 @@ opacity: 1;
   text-align: center;
   font-size: 12px;
   color: #64748b;
+}
+
+
+
+
+.flext-top{
+  position: relative;
+}
+.flext-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #A0AEC0;
+  border-radius: 10px;
+  gap: 8px;
+
+  padding: 15px;
+  display: flex;
+  margin-top: 10px;
+  width: 30%;
+  position: absolute;
+  left: 34%;
+ margin-left: 20px;
+  border: 2px solid white;
+}
+
+.flext-top p{
+  font-size: 8px;
+ 
+  
 }
