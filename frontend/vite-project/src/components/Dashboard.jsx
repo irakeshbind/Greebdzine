@@ -10,6 +10,7 @@ import Pro from "../assets/pro.png";
 import Teap from "../assets/teap.png";
 import Car from "../assets/car.png";
 import Opp from "../assets/opp.png";
+import Setting from "./Setting";
 
 
 
@@ -226,7 +227,10 @@ const Dashboard = () => {
           <div className="main-header-left">ff</div>
         </div>
         {/* third setting */}
-        <div className="main-setting">ddd</div>
+        <div className="main-setting">
+          
+          <Setting/>
+        </div>
       </div>
     </div>
   );
