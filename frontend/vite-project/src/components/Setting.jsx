@@ -19,7 +19,8 @@ const Setting = () => {
     newLaunches: false,
     monthlyUpdates: false,
     newsletter: true,
-    // weeklyMails: true,
+ 
+    
   });
 
   const handleToggle = (key) => {
@@ -30,6 +31,7 @@ const Setting = () => {
   };
 
   return (
+    <div>
     <div className="bkt">
       <div className="setting-conatiner">
         <div className="settings-page">
@@ -128,7 +130,18 @@ const Setting = () => {
           </div>
         </div>
       </div>
+      
     </div>
+    <div className="email-text">
+      <p>@ 2025, Greendzine Technologies Pvt Ltd</p>
+      <div className="blog-text">
+        <p>Marketplace</p>
+         <p>Blog</p>
+          <p>License</p>
+      </div>
+    </div>
+    </div>
+
   );
 };
 

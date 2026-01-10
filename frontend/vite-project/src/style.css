@@ -437,7 +437,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 3px;
 }
 .input-text {
   display: flex;
@@ -777,20 +777,23 @@ p {
 }
 
 .title {
+  color: #FFFFFF;
   font-size: 10px;
   margin-bottom: 7px;
 }
 
 .section-title {
+  color: #A0AEC0;
   font-size: 8px;
   margin-bottom: 4px;
 }
 
 .label {
   font-size: 10px;
-  color: #374151;
+  color: #A0AEC0;;
 }
 .setting-row {
+  
   display: flex;
   align-items: center;
   gap: 2px;
@@ -833,7 +836,7 @@ p {
 
 .mkt {
   width: 220px;
-  height: 180px;
+  height: 190px;
 
   border-radius: 10px;
   padding: 7px;
@@ -880,4 +883,30 @@ opacity: 1;
 .wasp-ps {
   padding: 2px;
   font-size: 8px;
+}
+
+
+/* email-text */
+.email-text{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-text{
+  gap: 50px;
+  display: flex;
+}
+.blog-text p{
+  font: normal normal normal 10px/10px Muli;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.email-text p{
+  margin-top: 5px;
+  font: normal normal normal 10px/10px Muli;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
 }
