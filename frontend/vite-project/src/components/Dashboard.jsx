@@ -15,6 +15,9 @@ import Setting from "./Setting";
 const Dashboard = () => {
   return (
     <div className="dashboard-wrapper">
+
+{/* dashboard horizonatal */}
+
       <div className="dashboar-header">
         <div className="dashbaord-text">
           <h3>MOPTro</h3>
@@ -26,7 +29,7 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="pragrph-p">
-          <div>
+          <div className="table-t">
             <img className="dashoard-image-cart" src={Cart} />
             Tables
           </div>
@@ -34,26 +37,34 @@ const Dashboard = () => {
 
         <div>
           <div className="dd">
-            <div>
+            <div className="accunt-text">
               <h3>ACCOUNT PAGES</h3>
             </div>
+
+
             <div className="profile-p">
               <p className="profile-text-p">
                 <img className="dashoard-image-cartd" src={dp} />
                 Profile
               </p>
-              <p>
+              <p className="profile-text-p">
                 <img className="dashoard-image-cartp" src={Cart} />
                 Sign in
               </p>
-              <p>
+              <p className="profile-text-p">
                 <img className="dashoard-image-cartg" src={signup} />
                 Sign up
               </p>
             </div>
+
+            
           </div>
         </div>
       </div>
+
+
+
+
 
       {/* alug first */}
       <div className="profile-side">
