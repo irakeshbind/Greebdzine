@@ -12,8 +12,6 @@ import Car from "../assets/car.png";
 import Opp from "../assets/opp.png";
 import Setting from "./Setting";
 
-
-
 const Dashboard = () => {
   return (
     <div className="dashboard-wrapper">
@@ -61,13 +59,13 @@ const Dashboard = () => {
       <div className="profile-side">
         <div className="proflie-left-text">
           <div>
-            <div className="profile-text-p">
+            <div className="profile-text-p-m">
               <p>
-                Pages /<span className="span-text">Dashboard</span>{" "}
+                Pages /<span className="span-text-m">Dashboard</span>{" "}
               </p>
             </div>
 
-            <div className="profile-text-span">
+            <div className="profile-text-span-m">
               <p>Profile</p>
             </div>
           </div>
@@ -141,85 +139,61 @@ const Dashboard = () => {
                     </div>
                   </div>
 
-
                   <div className="main-left">
-                   <div className="main-text-left">
-                          <div className="bb">
-
-                            <div className="main-p-text">
-                             <div className="main-per"> 
-                              <div className="main-text-h">
-                                <h6>Battery Health</h6>
+                    <div className="main-text-left">
+                      <div className="bb">
+                        <div className="main-p-text">
+                          <div className="main-per">
+                            <div className="main-text-h">
+                              <h6>Battery Health</h6>
                               <p>76%</p>
-                              </div>
-                              <div><img className="main-image"src={Car}/></div>
-                              
-                              </div>
-                            
                             </div>
-                            
-                            
-                            {/* s */}
-                            <div className="main-p-text">
-                             <div className="main-per"> 
-                              <div className="main-text-h">
-                                <h6>Efficiency</h6>
-                              <p>+20%</p>
-                              </div>
-                              <div><img className="main-image-ef"src={Car}/></div>
-                              
-                              </div>
-                            
+                            <div>
+                              <img className="main-image" src={Car} />
                             </div>
-
-                            {/* n */}
-                            <div className="main-p-text">
-                             <div className="main-per"> 
-                              <div className="main-text-h">
-                                <h6>Consumption</h6>
-                              <p>163W/km</p>
-                              </div>
-                              <div><img className="main-image"src={Opp}/></div>
-                              
-                              </div>
-                            
-                            </div>
-
-                             <div className="main-p-text">
-                             <div className="main-per"> 
-                              <div className="main-text-h">
-                                <h6>This Week</h6>
-                              <p>1.342/km</p>
-                              </div>
-                              <div><img className="main-image-th"src={Car}/></div>
-                              
-                              </div>
-                            
-                            </div>
-
-
-                            
-
-                             
-                             
-
-
-
-
-                           
-                         
-
-                         
                           </div>
+                        </div>
 
+                        {/* s */}
+                        <div className="main-p-text">
+                          <div className="main-per">
+                            <div className="main-text-h">
+                              <h6>Efficiency</h6>
+                              <p>+20%</p>
+                            </div>
+                            <div>
+                              <img className="main-image-ef" src={Car} />
+                            </div>
+                          </div>
+                        </div>
 
+                        {/* n */}
+                        <div className="main-p-text">
+                          <div className="main-per">
+                            <div className="main-text-h">
+                              <h6>Consumption</h6>
+                              <p>163W/km</p>
+                            </div>
+                            <div>
+                              <img className="main-image" src={Opp} />
+                            </div>
+                          </div>
+                        </div>
 
-                           
-                   </div>
-                   
+                        <div className="main-p-text">
+                          <div className="main-per">
+                            <div className="main-text-h">
+                              <h6>This Week</h6>
+                              <p>1.342/km</p>
+                            </div>
+                            <div>
+                              <img className="main-image-th" src={Car} />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-
-
                 </div>
               </div>
             </div>
@@ -228,8 +202,7 @@ const Dashboard = () => {
         </div>
         {/* third setting */}
         <div className="main-setting">
-          
-          <Setting/>
+          <Setting />
         </div>
       </div>
     </div>
